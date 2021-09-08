@@ -1,0 +1,20 @@
+@import "variables";
+
+#myCarousel {
+  width: 70vw;
+
+  .carousel-indicators {
+    border-radius: 50%;
+  }
+
+  .carousel-item {
+    max-height: 400px;
+  }
+
+  .carousel-caption {
+    padding: 5px;
+    color: $dkgreen;
+    text-shadow: 1px 2px 4px darken($dkgreen, 20%);
+    background-color: $ltgreen;
+  }
+}

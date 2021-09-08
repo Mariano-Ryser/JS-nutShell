@@ -1,0 +1,14 @@
+//color palette
+$ltgreen: #e7f0eb;
+$mdgreen: #506a54;
+$dkgreen: #162f21;
+$gold: #f8c925;
+$brick: #753205;
+
+$gradient1: $dkgreen 0%, $dkgreen 20%, $mdgreen 20%, $mdgreen 60%, $ltgreen 60%,
+  $ltgreen 100%;
+
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+$techfont: "Courier Prime", monospace;
+$readfont: "Montserrat", sans-serif;

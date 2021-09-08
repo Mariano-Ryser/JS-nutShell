@@ -1,0 +1,22 @@
+{
+  "name": "opp-js_nutshell",
+  "version": "1.0.0",
+  "description": "This is a simple LEMP stack setup to use with docker-compose.",
+  "main": "index.js",
+  "scripts": {
+    "sass:watch": "sass --watch $(pwd)/www.opportunity-zueri.ch/projects/js_nutshell/scss:$(pwd)/www.opportunity-zueri.ch/projects/js_nutshell/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtaopp/js_nuts"
+  },
+  "author": "Anita Peyer, changes made by Mirko Tachezy, and tweaks by Kate Ebensteiner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtaopp/js_nuts/issues"
+  },
+  "homepage": "https://github.com/mtaopp/js_nuts#readme",
+  "devDependencies": {
+    "sass": "^1.34.1"
+  }
+}
